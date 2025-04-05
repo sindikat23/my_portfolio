@@ -13,7 +13,7 @@ export default function Home() {
           <div className="col-span-1 grid justify-center w-100">
             <h1 className="text-4xl py-4 text-white">Alpamis Joldasov</h1>
             <p className="py-4 saira font-medium text-[#B7BBB1]">I am a Frontend Developer at heart and create features that are best suited for the job at hand.</p>
-            <div className="flex justify-center items-center bg-amber-100">
+            <div className="flex justify-start items-center gap-4">
             <FacebookOutlined className="text-2xl"/>
             <TwitterOutlined className="text-2xl col-span-1"/>
             <InstagramOutlined className="text-2xl col-span-1"/>
