@@ -23,7 +23,7 @@ const rowdies = Rowdies({
 })
 const saira = Saira({
   display: 'block',
-  weight: ["200","300","400","500"],
+  weight: ["100","200","300","400","500"],
   subsets: ['latin'],
   variable: "--font-saira",
 })
@@ -32,11 +32,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="uz" className={`${pacifico.variable} ${lobster.variable} ${rowdies.variable} ${saira.variable}`}>
       <body className="rowdies">
-        <div className="grid grid-cols-4">
-          <div className="col-span-1 bg-[#494B50] h-screen">
+        <div className="grid lg:grid-cols-4">
+          <div className="lg:col-span-1 bg-[#494B50] h-screen">
             <Navbar />
           </div>
-          <div className="col-span-3 bg-[#34353A]">
+          <div className="lg:col-span-3 bg-[#34353A] h-screen overflow-y-scroll">
             {children}
           </div>
         </div>
